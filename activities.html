@@ -16,16 +16,21 @@
             </nav>
         </header>
         
-        <main>
+        <main class="activity">
             <h4>Activities</h4>
             <a href="activities/activity1/p1.html">Activity 1</a>
-            <h4 class="svg">Here is an example for SVG</h4>
-            <svg width="200" height="180">
+            <h4>Here is an example for SVG</h4>
+            <svg width="200" height="150">
                 <rect x="20" y="20" rx="20" ry="10" width="150" height="100"/>
                 Sorry, your browser does not support inline SVG.
             </svg>
             <h4>Here is an image</h4>
             <img src="images/img2.jpg" alt="kitten">
+            <h4>Here is some javascript</h4>
+            <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time</button>
+            <p id="demo"></p>
         </main>
 
     </body>

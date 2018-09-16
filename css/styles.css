@@ -1,0 +1,111 @@
+h1, nav a{
+    font-family: "Georgia";
+}
+
+body{
+    font-family: "arial";
+    background-image: url("../images/img1.jpg");
+}
+
+header{
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    padding: 40px;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6);
+    margin: 0 10%;
+}
+
+.intro{
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+table{
+    max-width: 850px;
+    margin: 0 auto;
+    border-spacing: 0 50px;
+    border-collapse: separate;
+}
+
+th{
+    font-style:italic;
+    border-right: 1px solid #999;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 25px 0 0;
+    width: 150px;
+    vertical-align: top;
+}
+
+td{
+    padding: 10px;
+    line-height: 1.8;
+}
+
+tr{
+    margin-top: 100px;
+}
+
+table h4 {
+    margin-bottom: 0;
+}
+
+table p{
+    margin-top: 0;
+}
+
+.date{
+    font-style: italic;
+    float:right;
+}
+
+rect{
+    fill:pink;
+    stroke:lightGrey;
+    stroke-width:3;
+    opacity:0.7;
+}
+
+img{
+    width:50%;
+}
+
+.svg{
+   margin-top: 70px; 
+}
+
+.portfolio li{
+    margin: 40px auto;
+}
+
+.portfolio{
+    list-style: none;
+}
